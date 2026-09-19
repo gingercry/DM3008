@@ -1,6 +1,7 @@
-/* DM3008 Generative Art, Ashley Hi 2026
+/* DM3008 Generative Art
  * Week 4 - Waves & Distribution
- * Wave Composition A
+ * Assignment: Wave Composition A
+ * Lorelei Oen
 */
 
 var frequency = 500; // how many times the sin wave draws
