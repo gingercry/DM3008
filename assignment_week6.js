@@ -1,6 +1,7 @@
-/* DN3008 Generative Art, Ashley Hi 2026
+/* DN3008 Generative Art
  * Week 5 - Randomness & Noise
- * Assignment Example
+ * Assignment
+ * Lorelei Oen
  */
 
 function setup() {
@@ -20,21 +21,6 @@ function draw() {
     var b = createVector(random(-width, width), backDist);
     point(b.x, b.y);
   }
-
-//   // circle
-//   push();
-//   stroke(215, 78, 127);
-//   translate(width / 5, 3*height / 4);
-//   for (var i = 0; i < 2000; i++) {
-//     var cirDist = (max(random(0, 1), random(0, 1)) * width) / 15;
-//     //var cirDist = (random(0, width) * width) / size 
-//     var angle = random(0, PI * 2);
-//     var c = createVector(cos(angle), sin(angle));
-//     c.mult(cirDist);
-//     point(c.x, c.y);
-//   }
-//   pop();
-  
 
 
   //sunset
